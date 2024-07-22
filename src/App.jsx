@@ -1,13 +1,13 @@
-import WeatherDisplay from './components/WeatherDisplay.jsx';
-import SearchBar from './components/SearchBar.jsx';  
+import Weather from './components/Weather.jsx';
+// import SearchBar from './components/SearchBar.jsx';  
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <h1>Weather App</h1>
-      <SearchBar />
-      <WeatherDisplay />
+      {/* <SearchBar /> */}
+      <Weather /> 
     </div>
   )
 }
